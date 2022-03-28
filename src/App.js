@@ -1,12 +1,16 @@
 import './App.css';
-import Home from './pages/home/';
+//import Home from './pages/search/index'
+import React from "react";
+import SearchGif from "./pages/search";
+
 
 function App() {
   return (
     <div className="App">
-        <Home/>
+        <SearchGif/>
     </div>
   );
 }
 
 export default App;
+
